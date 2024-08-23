@@ -1,0 +1,70 @@
+@media screen and (max-width: 1443px) {
+  /* --- 3 (notebook) --- */
+  :root {
+    --fsize1: 50px;
+    --fsize2: 34px;
+    --fsize3: 18px;
+    --fsize4: 12px;
+    --fsize5: 10px;
+  }
+
+  .container {
+    width: 1172px;
+  }
+
+  .man-with-ball {
+    height: 600px;
+  }
+
+  .beton-dark-bg-wave {
+    height: 1050px;
+  }
+
+  .beton-dark-bg-wave .bg {
+    height: 1000px;
+  }
+
+  .stamp-frame {
+    height: 380px;
+  }
+
+  .stamp-frame .image {
+    width: 50%;
+  }
+
+  .stamp-frames .subtitle {
+    font-size: 14px;
+  }
+
+  .cooperate .stamp-frame {
+    height: 550px;
+  }
+
+  .hexagon {
+    height: 320px;
+  }
+
+  .pictures-wrapper .pictures .frame {
+    width: 330px;
+    height: 337px;
+  }
+
+  .pictures-wrapper .pictures .item img {
+    top: 46px;
+    left: 41px;
+    width: 225px;
+    height: 244px;
+  }
+
+  /*.leadership {*/
+  /*  padding-top: 70px;*/
+  /*}*/
+
+  .half-title {
+    height: 130px;
+  }
+
+  .half-title .strip {
+    height: 130px;
+  }
+}

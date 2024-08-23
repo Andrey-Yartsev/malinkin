@@ -1,0 +1,31 @@
+@media screen and (max-width: 2000px) {
+  /* --- 4 (desktop 2) --- */
+  .container {
+    width: 1370px;
+  }
+
+  .header > .container {
+    height: 87px;
+  }
+
+  .header .menu {
+    margin: 0 150px;
+  }
+
+  .pictures-wrapper .pictures .frame {
+    width: 350px;
+    height: 350px;
+  }
+
+  .pictures-wrapper .pictures .item img {
+    top: 51px;
+    left: 43px;
+    width: 240px;
+    height: 260px;
+  }
+
+  .pictures-wrapper .pictures {
+    width: calc(100% + 240px);
+    left: -120px;
+  }
+}

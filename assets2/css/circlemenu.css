@@ -1,0 +1,154 @@
+.cm-center-picture {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  width: 500px;
+}
+
+.cm-stripe {
+  position: absolute;
+  height: 350px;
+  background: #2a2a2a url(../img/beton-bg-dark2.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  top: 150px;
+
+}
+
+.cm-container {
+  position: relative;
+  width: 550px;
+  height: 550px;
+  border: solid 2px #505050;
+  border-radius: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sm-info {
+  margin-left: 600px;
+  width: 300px;
+}
+
+.sm-info .text {
+  margin-bottom: 15px;
+}
+
+.sm-info ul {
+  padding-left: 15px;
+}
+
+.sm-info li {
+  list-style: square;
+}
+
+.cm-container .cm-items {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  left: 264px;
+  top: 264px;
+  box-sizing: border-box;
+}
+
+.cm-container .cm-items .cm-item {
+  position: absolute;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.cm-container .cm-items .cm-item.selected {
+  display: none;
+}
+
+.cm-container .cm-items .cm-item a {
+  position: relative;
+  color: #737373;
+  padding-left: 30px;
+  text-decoration: none;
+  transition: all 0.2s ease-out;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.cm-container .cm-items .cm-item a:hover {
+  color: #ccc;
+  padding-left: 32px;
+}
+
+.cm-container .cm-items .cm-item a:before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #505050;
+  border-radius: 100%;
+}
+
+.cm-container .cm-selected-container {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background-color: #fff;
+  right: -13px;
+  top: 260px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.cm-container .cm-selected-container .cm-selected-label {
+  display: none;
+  height: 100px;
+  width: 200px;
+  overflow: hidden;
+  color: #505050;
+  font-size: 85%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.cm-container .cm-selected-container .cm-selected-label span {
+  position: absolute;
+
+}
+
+.cm-container .cm-selected-container .cm-button {
+  display: none;
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  font-size: 20px;
+  cursor: pointer;
+  top: 36px;
+  color: #505050;
+  transition: all 0.2s ease-out;
+}
+
+.cm-container .cm-selected-container .cm-button:hover {
+  color: #74dba2;
+}
+
+.cm-container .cm-selected-container .cm-button.cm-button-prev {
+  left: -32px;
+}
+
+.cm-container .cm-selected-container .cm-button.cm-button-prev:hover {
+  left: -34px;
+}
+
+.cm-container .cm-selected-container .cm-button.cm-button-next {
+  right: -32px;
+}
+
+.cm-container .cm-selected-container .cm-button.cm-button-next:hover {
+  right: -34px;
+}

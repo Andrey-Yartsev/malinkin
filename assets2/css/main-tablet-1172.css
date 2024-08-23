@@ -1,0 +1,83 @@
+@media screen and (max-width: 1172px) {
+  /* --- 2 (tablet) --- */
+  :root {
+    --stamp-padding: 15px;
+    --fsize1: 50px;
+    --fsize2: 34px;
+    --fsize333: 26px;
+    --fsize33: 16px;
+    --fsize3: 14px;
+    --fsize4: 12px;
+    --fsize5: 10px;
+  }
+
+  .container {
+    width: 735px;
+  }
+
+  .header .contacts {
+    display: none;
+  }
+
+  .cooperate .stamp-frame {
+    height: 350px;
+  }
+
+  .cooperate .stamp-frame ul {
+    margin-top: 0;
+  }
+
+  .hexagon {
+    height: 200px;
+  }
+
+  .why-beton2 .frame {
+    flex-grow: 2;
+    min-width: 500px;
+    height: 200px;
+  }
+
+  .why-beton2 .eco .content {
+    width: auto;
+  }
+
+  .why-beton2 .frame .image {
+    display: none;
+  }
+
+  .why-beton2 .eco {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .why-beton2 .eco .title {
+    font-size: var(--fsize333)
+  }
+
+  .why-beton2 .eco .subtitle {
+    font-size: var(--fsize33)
+  }
+
+  .footer .columns {
+    display: block;
+  }
+
+  .footer .column {
+    margin-bottom: 30px;
+  }
+
+  ul.products .product {
+    width: calc(50% - 14px) !important;
+  }
+
+  .catalog .value {
+    padding-right: 0;
+  }
+
+  .map {
+    width: 800px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+}
